@@ -25,7 +25,9 @@ export const TopBar = () => {
 
   return (
     <header className={styles.topbar}>
-      <div className={styles.title}>Selena Lourenco</div>
+      <NavLink to="/" className={styles.title} onClick={closeMenu}>
+        Selena Lourenco
+      </NavLink>
       <button className={styles.hamburger} onClick={toggleMenu}>
         ☰
       </button>

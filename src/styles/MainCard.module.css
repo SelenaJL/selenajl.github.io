@@ -15,10 +15,8 @@
 
 .contentContainer {
   display: grid;
-  /* grid-template-columns: 1fr; */
-  grid-template-columns: auto 1fr;
-  /* align-items: center; */
-  align-items: flex-start;
+  grid-template-columns: 1fr;
+  align-items: center;
   gap: 1.5rem;
 }
 
@@ -39,7 +37,8 @@
 }
 
 .image {
-  width: 290px;
+  width: 100%;
+  max-width: 290px;
   height: auto;
   border-radius: 8px;
   margin: 0 auto;
@@ -53,13 +52,13 @@
   text-align: center;
 }
 
-/* @media (min-width: 1280px) {
+@media (min-width: 806px) {
   .contentContainer {
     grid-template-columns: auto 1fr;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .image {
     margin: 0;
   }
-} */
+}

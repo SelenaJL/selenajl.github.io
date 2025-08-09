@@ -2,7 +2,7 @@ import { Page } from './Page';
 
 const mainCardContent = {
   title: 'Education',
-  text: 'As someone who loves learning, I\'m am thankful I had the opportunity to pursue my passions throughout school. \
+  text: 'As someone who loves learning, I\'m thankful I had the opportunity to pursue my passions throughout school. \
   I first graduated from Our Lady of Mount Carmel Secondary in 2015 with the Computer Science award and Advanced Placement English. \
   I then graduated from the University of Waterloo in 2020 with an Honours Bachelor of Computer Science and specialization in Human-Computer Interaction. \
   Below are some of the initiatives I participated in while studying.',

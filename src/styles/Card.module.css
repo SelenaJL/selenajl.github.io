@@ -23,6 +23,8 @@
 
 .buttonContainer {  
   margin-top: auto; 
+  display: flex;
+  justify-content: center;
 }
 
 .image {
@@ -36,6 +38,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 0.5rem;
 }
 
 .headerContent.withImage {
