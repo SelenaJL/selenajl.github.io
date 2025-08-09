@@ -3,12 +3,10 @@ import { Page } from './Page';
 const mainCardContent = {
   title: 'Work Experience',
   text: 'Thanks to the University of Waterloo\'s co-op program, I was able to experience a variety of roles, workplaces, and tech stacks early in my career. \
-  From startups to corporations and Toronto to Sillicon Valley... My goal was to build a strong foundation as a software developer with confident communication and leadership skills. \
-  I then spent 5 years at Shopify where I used these skills to champion projects. This involved faciliating Agile ceremonies and collaborating with product/UX/data on technical design documents \
-  which helped me discovered my passion for accelerating teams. I created widely used templates for retrospectives to build trust and domain-driven design exercises to build alignment. \
-  I also led a 6 month course for support staff transitioning to engineering, technical training for 20 launch consultants to increase themes feature adoption, and a series of workshops for the Women at Shopify Employee Resource Group. \
-  All that on top of regular on-call shifts to improve system observability and resilliency because being a developer is so much more than writing code! \
-  However, I love that too and have summarized my coding contributions below.',
+  From startups to corporations and Toronto to Sillicon Valley, I worked on building a strong foundation as a software developer with communication and leadership skills. \
+  I then spent 5 years at Shopify where I used these skills to grow my impact as an individual contributor by streamlining on-call processes, leading workshops for the Women at Shopify Employee Resource Group, and championing projects. \
+  The latter involved faciliating Agile ceremonies and collaborating with product/UX/data on technical design documents which helped me discover my passion for accelerating cross-functional teams. \
+  I created templates for retrospectives to build trust and domain-driven design exercises to build alignment which are now used by many people.',
   buttons: [
     { logo: '/logos/figma.png', text: 'My retro templates', link: 'https://www.figma.com/board/QKX955drwMPSZnWqmzoGWq/Selena-s-Retro-Templates' },
     { logo: '/logos/figma.png', text: 'My DDD templates', link: 'https://www.figma.com/board/wiKELhKIRMwcoeAbYewzcC/Selena-s-DDD-Templates' },

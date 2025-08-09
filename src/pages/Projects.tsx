@@ -2,8 +2,8 @@ import { Page } from './Page';
 
 const mainCardContent = {
   title: 'Projects',
-  text: 'I recently decided to start deploying my side projects for the world to see and use - this website is the first of many to come! \
-  I know first hand how intimidating it can be to publish something. Will it perform as expected? Will feedback be positive or negative? But we\'ll never know if we don\'t try.',
+  text: 'I recently decided to start deploying my personal projects for the world to see and use - this website is the first of many to come! \
+  I know how intimidating it can be to put something out there... Will it perform as expected? Will feedback be positive or negative? But we\'ll never know if we never try.',
   buttons: [
     { logo: '/logos/github.png', text: 'See what I\'ve built', link: 'https://github.com/SelenaJL' },
   ],

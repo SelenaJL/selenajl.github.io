@@ -2,8 +2,8 @@ import { Page } from './Page';
 
 const mainCardContent = {
   title: 'Volunteer Experience',
-  text: 'Being involved in the tech community beyond my workplace, especially with youth, is incredibly inspiring and fulfilling. \
-  My goal is to be the role model I always wished I had growing up when I was instead told that women didn\'t belong in this field. \
+  text: 'Being involved in the greater tech community, especially with youth, is incredibly inspiring and fulfilling. \
+  My goal is to be the role model I wish I had growing up when I was instead told that women didn\'t belong in this field. \
   Through mentorship and public speaking, I\'m able to change that narrative and the programs below have given me that opportunity. \
   I\'m forever grateful for the work they do to empower the people of today to shape the world of tomorrow.',
 };
@@ -12,9 +12,16 @@ const cardsContent = [
   {
     title: 'Technovation',
     text: 'As a coach for the global Technovation Girls program, I provided guidance and feedback to teams using Thunkable or MIT App Inventor. We covered UX research, design, code, API/AI integrations, business models, and presentation skills.',
-    date: 'Oct 2024 - Apr 2025',
-    image: '/memories/training.jpg',
+    date: 'Jan 2024 - Jan 2025',
+    image: '/memories/women.jpg',
     button: { logo: '/logos/technovation.png', text: 'Learn more', link: 'https://technovationchallenge.org/' },
+  },
+  {
+    title: 'Shopify',
+    text: 'Alongside my project work, I taught a 6 month introductory Computer Science course for support staff transitioning to engineering. Later, I developed and presented technical training on storefronts to 20 launch consultants so they could better promote the feature.',
+    date: 'Jan-Jun 2022 & Jan 2025',
+    image: '/memories/training.jpg',
+    button: { logo: '/logos/shopify.png', text: 'Learn more', link: 'https://shopify.dev/docs/storefronts' },
   },
   {
     title: 'Network for Teaching Entrepreneurship',
@@ -42,7 +49,7 @@ const cardsContent = [
     text: 'As a member of the career panel for a webinar in partnership with the University of Waterloo\'s Work-Learn Institute, I spoke to 500+ attendees about how the COVID-19 pandemic might affect talent recuitment and retention.',
     date: 'Sep 2020',
     image: '/memories/hrd-talk.jpg',
-    button: { logo: '/logos/uw.png', text: 'Watch now', link: 'https://uwaterloo.ca/work-learn-institute/events/webinar-future-work-and-your-talent-pipeline-what-covid-19' },
+    button: { logo: '/logos/uw.png', text: 'Watch recording', link: 'https://uwaterloo.ca/work-learn-institute/events/webinar-future-work-and-your-talent-pipeline-what-covid-19' },
   },
   {
     title: 'IBM STEM for Girls',

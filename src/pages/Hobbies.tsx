@@ -34,7 +34,7 @@ const cardsContent = [
   },
   {
     title: 'Non-Violent Communication',
-    text: 'Empathy is one of my core values so reading this book by Marshall Rosenberg has had a profound impact on my worldview and relationships. I recommend it to everyone but acknowledge that its something we must all actively practise, hence listing it as a hobby!',
+    text: 'Empathy is one of my core values so this book by Marshall Rosenberg had a profound impact on my worldview and relationships. It\'s taught me to express my needs in life-enriching ways and to recieve the needs of others as a gift. Therefore, it\'s something I actively practise.',
     image: '/memories/nvc.jpg',
   },
   {
