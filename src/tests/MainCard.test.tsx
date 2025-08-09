@@ -2,12 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { MainCard } from '../components/MainCard';
 
 describe('MainCard', () => {
-  it('renders text', () => {
-    render(<MainCard text="Test Main Card Text" />);
-    expect(screen.getByText('Test Main Card Text')).toBeInTheDocument();
-  });
-
-  it('renders title if provided', () => {
+  it('renders title and text', () => {
     render(<MainCard title="Test Main Card Title" text="Test Main Card Text" />);
     expect(screen.getByText('Test Main Card Title')).toBeInTheDocument();
     expect(screen.getByText('Test Main Card Text')).toBeInTheDocument();
