@@ -12,14 +12,14 @@ const cardsContent = [
   {
     title: 'Technovation',
     text: 'As a coach for the global Technovation Girls program, I provided guidance and feedback to teams using Thunkable or MIT App Inventor. We covered UX research, design, code, API/AI integrations, business models, and presentation skills.',
-    date: 'Jan 2024 - Jan 2025',
+    date: 'Oct 2024 - Jan 2025',
     image: '/memories/women.jpg',
     button: { logo: '/logos/technovation.png', text: 'Learn more', link: 'https://technovationchallenge.org/' },
   },
   {
     title: 'Shopify',
     text: 'Alongside my project work, I taught a 6 month introductory Computer Science course for support staff transitioning to engineering. Later, I developed and presented technical training on storefronts to 20 launch consultants so they could better promote the feature.',
-    date: 'Jan-Jun 2022 & Jan 2025',
+    date: '2022 & 2025',
     image: '/memories/training.jpg',
     button: { logo: '/logos/shopify.png', text: 'Learn more', link: 'https://shopify.dev/docs/storefronts' },
   },
@@ -39,8 +39,8 @@ const cardsContent = [
   },
   {
     title: 'hEr VOLUTION',
-    text: 'As a coach for the STEMing Up program, I hosted weekly sessions to help teams design and prototype technical projects then pitch them Dragon\'s Den style. I also provided feedback as a hackathon judge.',
-    date: 'Jul 2020 - Aug 2024',
+    text: 'As a coach for the STEMing Up program, I hosted weekly sessions to help teams design and prototype technical projects then pitch them in a Dragon\'s Den style competition. I also provided feedback as a hackathon judge.',
+    date: '2020-2024',
     image: '/memories/zoom.jpg',
     button: { logo: '/logos/hervolution.png', text: 'Learn more', link: 'https://hervolution.org/' },
   },

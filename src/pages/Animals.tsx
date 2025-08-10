@@ -3,9 +3,9 @@ import { Page } from './Page';
 const mainCardContent = {
   title: 'Animal Rescue',
   text: 'One of my biggest passions is helping animals. I\'ve volunteered for Pet Patrol Cat Rescue serving the Kitchener-Waterloo region, AVA Cat Rescue serving the Greater Toronto Area, \
-  and TEAM Cat Rescue taking in cats from kill shelters all over the world. Thanks to these incredible non-profit organizations, I\'ve had the pleasure of fostering 23 cat and counting! \
+  and TEAM Cat Rescue taking in cats from kill shelters all over the world. Thanks to these incredible non-profit organizations, I\'ve had the pleasure of fostering 23 cats and counting! \
   This includes socializing, providing medical care, and faciliating adoptions after the cats are rescued or surrended. You can read about each of my fosters below and find more photos on \
-  my Instagram account. If you have questions about cats or contributing to your local rescues, I\'d be delighted to chat.',
+  my Instagram account. If you have questions about cats or contributing to your local rescue efforts, I\'d be delighted to chat.',
   buttons: [
     { logo: '/logos/instagram.png', text: '@selsfosterdiaries', link: 'https://www.instagram.com/selsfosterdiaries/' },
     { logo: '/logos/team-cat.png', text: 'Learn about TEAM', link: 'https://teamcatrescue.com/' },
@@ -18,8 +18,8 @@ const cardsContent = [
   {
     image: '/cats/cat-23.jpg',
     title: 'Autumn',
-    text: 'A beautiful, 9 year old, Nebelung female who loves cuddles and chasing shadows. She was surrendered but is now looking for her furever home!',
-    date: 'Aug 2025 - Present',
+    text: 'A beautiful, 9 year old, Nebelung female who loves cuddles and chasing shadows. She was surrendered but found her second chance at a furever home!',
+    date: 'Aug 2025',
   },
   {
     image: '/cats/cat-22.jpg',
@@ -36,7 +36,7 @@ const cardsContent = [
   {
     image: '/cats/cat-18-19.jpg',
     title: 'Bob & Linda',
-    text: 'A 1 year old bonded pair found and rescued when Linda miscarried due to a uterine infection. These two loved meowing for food and getting belly rubs',
+    text: 'A 1 year old bonded pair found and rescued when Linda miscarried due to a uterine infection. These two loved meowing for food and getting belly rubs.',
     date: 'May-Sep 2023',
   },
   {
@@ -48,7 +48,7 @@ const cardsContent = [
   {
     image: '/cats/cat-15-16.jpg',
     title: 'Mako & Buffy',
-    text: 'Two female kittens who were rescued from Texas and paired together. They soon became best friends and experts at loud purring.',
+    text: 'Two female kittens who were rescued from Texas and paired together. They soon became best friends and purring experts.',
     date: 'Feb-Mar 2023',
   },
   {
@@ -96,13 +96,13 @@ const cardsContent = [
   {
     image: '/cats/cat-4-5.jpg',
     title: 'Luca & Leila',
-    text: 'A gentle male kitten found in alone in a junkyard and a curious female kitten found alone in a cornfield who needed help getting healthy before adoption.',
+    text: 'A gentle male kitten found in alone in a junkyard and a curious female kitten found alone in a cornfield. After some nurturing, they found two homes with other cats.',
     date: 'Oct 2020',
   },
   {
     image: '/cats/cat-2-3.jpg',
     title: 'Juliet & Juniper',
-    text: 'Two female kittens from the same litter who were rescued from a barn with their whole family. Their tough act and hissing quickly turned into following me around and purring.',
+    text: 'Two female kittens from the same litter who were rescued from a barn with their whole family. Their tough act and hissing quickly turned into following me around and meowing.',
     date: 'Sep 2020',
   },
   {

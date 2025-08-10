@@ -34,12 +34,12 @@ const cardsContent = [
   },
   {
     title: 'Non-Violent Communication',
-    text: 'Empathy is one of my core values so this book by Marshall Rosenberg had a profound impact on my worldview and relationships. It\'s taught me to express my needs in life-enriching ways and to recieve the needs of others as a gift. Therefore, it\'s something I actively practise.',
+    text: 'Empathy is one of my core values so this book by Marshall Rosenberg had a profound impact on my worldview and relationships. It\'s taught me to express my needs in life-enriching ways and recieve the needs of others as a gift. Therefore, it\'s something I actively practise.',
     image: '/memories/nvc.jpg',
   },
   {
     title: 'Cooking and Baking',
-    text: 'Anyone in my life knows I try to bring a homemade dish to every event! Not only is it fun to experiment with recipies as well as cost effective, sustainable, and healthier to eat at home but sharing food is my favourite way to nourish my community.',
+    text: 'Anyone in my life knows I try to bring a homemade dish to every event! Not only is it fun to experiment with recipies as well as cost effective, sustainable, and healthy to eat at home but sharing food is my favourite way to nourish those around me.',
     image: '/memories/food.jpg',
   },
 ];

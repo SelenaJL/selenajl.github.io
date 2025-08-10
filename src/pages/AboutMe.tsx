@@ -33,7 +33,7 @@ const cardsContent = [
   },
   {
     title: 'Campaigner',
-    text: 'My Myers-Briggs type is ENFP (Extraverted, Intuitive, Feeling, Perceiving) or the campaigner which means I\'m motivated by authentic connection. \
+    text: 'My Myers-Briggs type is ENFP (Extraverted, Intuitive, Feeling, Perceiving) also knowns as the campaigner which means I\'m motivated by authentic connection. \
     I\'m enthusiastic and innovative at my best but can sometimes be impulsive. \
     I thrive when I\’m working on creative and mission-driven projects.',
     button: { logo: '/logos/myers-briggs.png', text: 'Learn about Myers-Briggs', link: 'https://www.16personalities.com/' },
@@ -48,7 +48,7 @@ const cardsContent = [
   {
     title: 'Explorer',
     text: 'My play personality is the explorer which means I\'m motivated by novelty and growth. \
-    I\'m adventurous and open-minded at my best but can sometimes get distracted. \
+    I\'m adventurous and open-minded at my best but can sometimes get easily distracted. \
     I thrive when I\'m free to experiment with ideas, follow my curiosity, ask questions, and express myself.',
     button: { logo: '/logos/play.png', text: 'Learn about play', link: 'https://nifplay.org/what-is-play/play-personalities/' },
   },

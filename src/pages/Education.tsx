@@ -39,10 +39,10 @@ const cardsContent = [
   },
   {
     title: 'Sears Ontario Drama Festival ',
-    text: 'I wrote, directed, staged managed, and acted in two student-run productions to compete in the festival. We then hosted a show to raise money for Mothers Against Drunk Driving.',
+    text: 'I wrote, directed, staged managed, and acted in many student-run productions. We then competed and hosted an additional show to raise money for Mothers Against Drunk Driving.',
     image: '/memories/drama.jpg',
     date: '2014-2015',
-    button: { logo: '/logos/sears.png', text: 'Learn more', link: 'https://madd.ca/pages/' },
+    button: { logo: '/logos/sears.png', text: 'Learn more', link: 'https://searsdramafestival.com/' },
   },
   {
     title: 'Share Our Spirit',
