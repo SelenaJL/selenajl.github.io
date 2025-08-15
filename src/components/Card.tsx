@@ -6,7 +6,7 @@ interface CardProps {
   text: string;
   image?: string;
   date?: string;
-  button?: { logo: string; text: string; link: string };
+  button?: { logo?: string; text: string; link: string };
 }
 
 export const Card = ({ title, text, image, date, button }: CardProps) => {

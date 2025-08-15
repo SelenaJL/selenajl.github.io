@@ -5,7 +5,7 @@ interface MainCardProps {
   title: string;
   text: string;
   image?: string;
-  buttons?: { logo: string; text: string; link: string }[];
+  buttons?: { logo?: string; text: string; link: string }[];
 }
 
 export const MainCard = ({ title, text, image, buttons }: MainCardProps) => {

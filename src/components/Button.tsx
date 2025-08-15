@@ -2,7 +2,7 @@
 import styles from '../styles/Button.module.css';
 
 interface ButtonProps {
-  logo: string;
+  logo?: string;
   text: string;
   link: string;
 }
@@ -10,7 +10,7 @@ interface ButtonProps {
 export const Button = ({ logo, text, link }: ButtonProps) => {
   return (
     <a href={link} target="_blank" rel="noopener noreferrer" className={styles.button}>
-      <img src={logo} alt={text} className={styles.buttonLogo} />
+      {logo && <img src={logo} alt={text} className={styles.buttonLogo} />}
       <span>{text}</span>
     </a>
   );

@@ -7,13 +7,13 @@ interface PageProps {
     title: string;
     text: string;
     image?: string;
-    buttons?: { logo: string; text: string; link: string }[] };
+    buttons?: { logo?: string; text: string; link: string }[] };
   cardsContent: {
     title: string;
     text: string;
     image?: string;
     date?: string;
-    button?: { logo: string; text: string; link: string };
+    button?: { logo?: string; text: string; link: string };
   }[];
 }
 

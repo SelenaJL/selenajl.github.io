@@ -17,7 +17,7 @@
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .textAndButtonContainer {
@@ -25,20 +25,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .buttonContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
-  width: 100%;
+  gap: 0.5rem;
+  width: fit-content;;
 }
 
 .image {
   width: 100%;
-  max-width: 290px;
+  max-width: 250px;
   height: auto;
   border-radius: 8px;
   margin: 0 auto;
@@ -54,7 +54,6 @@
 
 .text :global(a) {
   color: var(--blue);
-  font-weight: bold;
   text-decoration: none;
 }
 

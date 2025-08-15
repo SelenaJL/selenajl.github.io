@@ -2,30 +2,28 @@ import { Page } from './Page';
 
 const mainCardContent = {
   title: 'Education',
-  text: 'As someone who loves learning, I\'m thankful I had the opportunity to pursue my passions throughout school. \
-  I first graduated from Our Lady of Mount Carmel Secondary in 2015 with the Computer Science award and Advanced Placement English. \
-  I then graduated from the University of Waterloo in 2020 with an Honours Bachelor of Computer Science and specialization in Human-Computer Interaction. \
-  Below are some of the initiatives I participated in while studying.',
+  text: 'In 2015, I graduated from Our Lady of Mount Carmel Secondary with <a href="https://apcentral.collegeboard.org/courses/ap-english-literature-and-composition/exam">Advanced Placement English</a> and the Computer Science award. \
+  In 2020, I graduated from the University of Waterloo with an Honours <a href="https://cs.uwaterloo.ca/future-undergraduate-students/undergraduate-programs-and-courses/computer-science">Bachelor of Computer Science</a> and specialization in Human-Computer Interaction.',
 };
 
 const cardsContent = [
   {
     title: 'Warrior Recreation',
-    text: 'I was an ambasaador for the University of Waterloo, promoting student health and wellness on social media. I also ran campus events for Bell Let\'s Talk Day.',
+    text: 'I was an ambasaador for the University of Waterloo where I promoted student health and wellness on social media and ran campus events for <a href="https://letstalk.bell.ca/">Bell Let\'s Talk Day</a>.',
     image: '/memories/wrap.jpg',
     date: 'Jan-Apr 2020',
-    button: { logo: '/logos/bell.png', text: '#BellLetsTalk', link: 'https://letstalk.bell.ca/' },
+    button: { logo: '/logos/instagram.png', text: '@wloorec', link: 'https://www.instagram.com/wloorec/' },
   },
   {
     title: 'WATonomous',
-    text: 'I led the Camera Calibration project for the University of Waterloo\'s student design team participating in the SAE AutoDrive Challenge to build an autonomous vehicle. ',
+    text: 'I led the Camera Calibration project for the University of Waterloo\'s student design team building an autonomous vehicle for the SAE AutoDrive Challenge.',
     image: '/memories/waymo.jpg',
     date: 'Sep-Dec 2018',
     button: { logo: '/logos/wato.png', text: 'Learn more', link: 'https://www.watonomous.ca/' },
   },
   {
     title: 'CAN-CWiC',
-    text: 'I was awarded "Best Student Tech Talk" at the Canadian Celebration of Women in Computing where I spoke about the intersection of design and development to 50+ attendees.',
+    text: 'I was awarded "Best Student Tech Talk" at the Canadian Celebration of Women in Computing where I spoke about the intersection of design and development.',
     image: '/memories/can-cwic-talk.jpg',
     date: 'Sep-Dec 2018',
     button: { logo: '/logos/can-cwic.png', text: 'Learn more', link: 'https://cscan-infocan.ca/celebration-of-women-in-computing/' },
@@ -39,14 +37,14 @@ const cardsContent = [
   },
   {
     title: 'Sears Ontario Drama Festival ',
-    text: 'I wrote, directed, staged managed, and acted in many student-run productions. We then competed and hosted an additional show to raise money for Mothers Against Drunk Driving.',
+    text: 'I wrote, directed, staged managed, and acted in many student-run productions to compete and raise money for <a href="https://www.madd.ca/">Mothers Against Drunk Driving</a>.',
     image: '/memories/drama.jpg',
     date: '2014-2015',
     button: { logo: '/logos/sears.png', text: 'Learn more', link: 'https://searsdramafestival.com/' },
   },
   {
     title: 'Share Our Spirit',
-    text: 'After my school lost funding for this hip hop youth exchange program, I lead it for 3 years then passed on the torch. It\'s still connecting singers, rappers, and dancers accross Ontario and Quebec to this day!',
+    text: 'I lead a hip hop youth exchange program for 3 years and am proud to say it\'s still connecting singers, rappers, and dancers accross Ontario and Quebec to this day!',
     image: '/memories/sos.jpg',
     date: '2011-2015',
     button: { logo: '/logos/instagram.png', text: '@sosolmc', link: 'https://www.instagram.com/sosolmc/' },
