@@ -24,43 +24,37 @@ const mainCardContent = {
   ],
 };
 
-const cardsContent = [
+const clickableCardsContent = [
   {
-    text: 'Theatre, mental health, autonomous cars...',
-    // image: '/memories/math.jpg',
-    title: '',
-    button: { text: 'See my education', link: '/education' },
+    title: 'Education',
+    text: 'From advanced English and theatre to a Bachelor of Computer Science and autonomous vehicles to student health initiatives...',
+    route: '/education',
   },
   {
-    text: 'Startups, guilds, retrospectives...',
-    // image: '/memories/shopify-fulltime.jpg',
-    title: '',
-    button: { text: 'See my work experience', link: '/work' },
+    title: 'Work Experience',
+    text: 'From startups to Silicon Valley, healthcare to e-commerce, plus my very own retrospective and domain-driven design templates...',
+    route: '/work',
   },
   {
-    text: 'Mentoring, teaching, public speaking...',
-    // image: '/memories/women.jpg',
-    title: '',
-    button: { text: 'See my volunteer history', link: '/volunteer' },
+    title: 'Volunteer History',
+    text: 'From mentoring to teaching to public speaking for youth STEM programs, hackathons, and community events in tech...',
+    route: '/volunteer',
   },
   {
-    text: 'Animal rescue, foster care, adoption...',
-    // image: '/cats/cat-1.jpg',
-    title: '',
-    button: { text: 'See my cats', link: '/animals' },
+    title: 'Animal Rescue',
+    text: 'From fostering 23 cats and aiding in their recovery to facilitating adoptions with my local shelters and rescues...',
+    route: '/animals',
   },
   {
-    text: 'Songwriting, charity runs, arts and crafts...',
-    // image: '/memories/mrr-shirt.jpg',
-    title: '',
-    button: { text: 'See my hobbies', link: '/hobbies' },
+    title: 'Hobbies',
+    text: 'From playing the piano and writing songs to running for children\'s hospitals to experimenting with art and cooking...',
+    route: '/hobbies',
   },
   {
-    text: 'Weddings, Taylor Swift, hackathons...',
-    // image: '/memories/eras-tour.jpg',
-    title: '',
-    button: { text: 'See my projects', link: '/projects' },
+    title: 'Projects',
+    text: 'From deploying this website to building a Taylor Swift song ranking app as well as an all-in-one wedding planning tool...',
+    route: '/projects',
   },
 ];
 
-export const AboutMe = () => <Page mainCardContent={mainCardContent} cardsContent={cardsContent} />;
+export const AboutMe = () => <Page mainCardContent={mainCardContent} clickableCardsContent={clickableCardsContent} />;

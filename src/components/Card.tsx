@@ -4,7 +4,7 @@ import styles from '../styles/Card.module.css';
 interface CardProps {
   title: string;
   text: string;
-  image?: string;
+  image: string;
   date?: string;
   button?: { logo?: string; text: string; link: string };
 }

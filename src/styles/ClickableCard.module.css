@@ -1,0 +1,8 @@
+.clickableCard {
+  text-decoration: none;
+  color: inherit;
+}
+
+.clickableCard:hover {
+  background-color: var(--medium-yellow);
+}

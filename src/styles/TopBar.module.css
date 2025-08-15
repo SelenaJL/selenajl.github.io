@@ -4,6 +4,7 @@
   align-items: center;
   padding: 1rem 16rem;
   background-color: var(--pink);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .title {
@@ -46,7 +47,6 @@
 .navLink:hover,
 .active {
   color: #ffdf97; /* var(--medium-yellow) over white */
-  font-weight: bold;
 }
 
 @media (max-width: 1280px) {
