@@ -17,4 +17,10 @@ describe('MainCard', () => {
     expect(screen.getByText('Button 1')).toBeInTheDocument();
     expect(screen.getByText('Button 2')).toBeInTheDocument();
   });
+
+  it('renders links in the text', () => {
+    render(<MainCard title="Test Main Card Title" text='This is some text with a <a href="https://example.com">link</a>' />);
+    expect(screen.getByText('link')).toBeInTheDocument();
+    expect(screen.getByText('link').closest('a')).toHaveAttribute('href', 'https://example.com');
+  });
 });

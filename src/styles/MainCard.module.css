@@ -52,6 +52,16 @@
   text-align: center;
 }
 
+.text :global(a) {
+  color: var(--blue);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.text :global(a:hover) {
+  text-decoration: underline;
+}
+
 @media (min-width: 806px) {
   .contentContainer {
     grid-template-columns: auto 1fr;

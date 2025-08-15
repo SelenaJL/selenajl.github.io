@@ -64,6 +64,16 @@
   color: var(--grey);
 }
 
+.text :global(a) {
+  color: var(--blue);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.text :global(a:hover) {
+  text-decoration: underline;
+}
+
 .text.withButton {
   margin-bottom: 1.5rem;
 }

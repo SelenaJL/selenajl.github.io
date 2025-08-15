@@ -27,7 +27,10 @@ export const Card = ({ title, text, image, date, button }: CardProps) => {
         <h3 className={styles.title}>{title}</h3>
         {date && <span className={styles.date}>{date}</span>}
       </div>
-      <p className={textClasses.join(' ')}>{text}</p>
+      <div
+        className={textClasses.join(' ')}
+        dangerouslySetInnerHTML={{ __html: text }}
+      />
       {button && (
         <div className={styles.buttonContainer}>
           <Button {...button} />

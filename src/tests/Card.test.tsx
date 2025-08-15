@@ -24,4 +24,10 @@ describe('Card', () => {
     render(<Card title="Test Title" text="Test Text" button={button} />);
     expect(screen.getByText('Button')).toBeInTheDocument();
   });
+
+  it('renders links in the text', () => {
+    render(<Card title="Test Title" text='This is some text with a <a href="https://example.com">link</a>' />);
+    expect(screen.getByText('link')).toBeInTheDocument();
+    expect(screen.getByText('link').closest('a')).toHaveAttribute('href', 'https://example.com');
+  });
 });
