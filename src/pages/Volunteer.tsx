@@ -10,21 +10,21 @@ const mainCardContent = {
 const cardsContent = [
   {
     title: 'Technovation',
-    text: 'As a coach for the global Technovation Girls program, I provided guidance to teams using Thunkable or MIT App Inventor. We covered UX research, design, code, API/AI integrations, business models, and presentation skills.',
-    date: 'Oct 2024 - Jan 2025',
+    text: 'As a coach for the global Technovation Girls program, I provided guidance to 8 teams using Thunkable or MIT App Inventor. We covered UX research, design, code, API/AI integrations, business models, and presentation skills.',
+    date: 'Oct 2024 - Apr 2025',
     image: '/memories/women.jpg',
     button: { logo: '/logos/technovation.png', text: 'Learn more', link: 'https://technovationchallenge.org/' },
   },
   {
     title: 'Shopify',
-    text: 'I taught a 6 month introductory Computer Science course for support staff transitioning to engineering. I also developed technical training on storefronts to help 20+ launch consultants better promote the feature.',
+    text: 'I taught a 6-month introductory Computer Science course for support staff transitioning to engineering. I also developed technical training on storefronts to help 20+ launch consultants better promote the feature.',
     date: '2022 & 2025',
     image: '/memories/training.jpg',
     button: { logo: '/logos/shopify.png', text: 'Learn more', link: 'https://shopify.dev/docs/storefronts' },
   },
   {
     title: 'Network for Teaching Entrepreneurship',
-    text: 'As a judge for the World Series of Innovation Impact League, I provided feedback for technical solutions related to the UN Sustainable Development Goals.',
+    text: 'As a judge for the World Series of Innovation Impact League, I provided feedback for technical solutions to the UN Sustainable Development Goals.',
     date: 'Jan 2025',
     image: '/memories/stickies.jpg',
     button: { logo: '/logos/nfte.png', text: 'Learn more', link: 'https://innovation.nfte.com/' },
@@ -45,17 +45,24 @@ const cardsContent = [
   },
   {
     title: 'HRD Canada',
-    text: 'As a panelist for a webinar in partnership with the University of Waterloo\'s Work-Learn Institute, I spoke to 500+ attendees about how the COVID-19 pandemic might affect talent recuitment and retention.',
+    text: 'As a panelist for a webinar in partnership with the University of Waterloo\'s Work-Learn Institute, I spoke to 500+ attendees about how the COVID-19 pandemic might affect talent recruitment and retention.',
     date: 'Sep 2020',
     image: '/memories/hrd-talk.jpg',
     button: { logo: '/logos/uw.png', text: 'Watch recording', link: 'https://uwaterloo.ca/work-learn-institute/events/webinar-future-work-and-your-talent-pipeline-what-covid-19' },
   },
   {
     title: 'IBM STEM for Girls',
-    text: 'As a camp leader, I faciliated a day of activities to teach 20+ grade 6 girls how to build robotic cars that could navigate a maze on its own using Lego Mindstorms and the Scratch visual programming language.',
+    text: 'As a camp leader, I ran a day of activities to teach 20+ grade 6 girls how to build robotic cars that could navigate a maze on its own using Lego Mindstorms and the Scratch visual programming language.',
     date: 'Aug 2018',
     image: '/memories/lego.jpg',
     button: { logo: '/logos/ibm-stem.png', text: 'Learn more', link: 'https://ibmstemforgirls.wordpress.com/' },
+  },
+  {
+    title: 'Rangle.io',
+    text: 'I facilitated weekly employee guilds on Artificial Intelligence (AI) and the Internet of Things (IoT) where we explored emerging technologies and built hands-on projects such as simple Arduino-based devices.',
+    date: 'Sep-Dec 2017',
+    image: '/memories/iot.jpg',
+    button: { logo: '/logos/rangle.png', text: 'Learn more', link: 'https://rangle.io/blog/ai-and-the-future-of-digital-experience-platforms' },
   },
   {
     title: 'Tech Ladies',

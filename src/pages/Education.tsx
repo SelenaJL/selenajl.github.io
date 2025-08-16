@@ -9,7 +9,7 @@ const mainCardContent = {
 const cardsContent = [
   {
     title: 'Warrior Recreation',
-    text: 'I was an ambasaador for the University of Waterloo where I promoted student health and wellness on social media and ran campus events for <a href="https://letstalk.bell.ca/">Bell Let\'s Talk Day</a>.',
+    text: 'I was an ambassador for the University of Waterloo where I promoted student health and wellness on social media and ran campus events for <a href="https://letstalk.bell.ca/">Bell Let\'s Talk Day</a>.',
     image: '/memories/wrap.jpg',
     date: 'Jan-Apr 2020',
     button: { logo: '/logos/instagram.png', text: '@wloorec', link: 'https://www.instagram.com/wloorec/' },
@@ -37,14 +37,14 @@ const cardsContent = [
   },
   {
     title: 'Sears Ontario Drama Festival ',
-    text: 'I wrote, directed, staged managed, and acted in many student-run productions to compete and raise money for <a href="https://www.madd.ca/">Mothers Against Drunk Driving</a>.',
+    text: 'I wrote, directed, staged-managed, and performed in student theatre productions to compete and raise money for <a href="https://www.madd.ca/">Mothers Against Drunk Driving</a>.',
     image: '/memories/drama.jpg',
     date: '2014-2015',
     button: { logo: '/logos/sears.png', text: 'Learn more', link: 'https://searsdramafestival.com/' },
   },
   {
     title: 'Share Our Spirit',
-    text: 'I lead a hip hop youth exchange program for 3 years and am proud to say it\'s still connecting singers, rappers, and dancers accross Ontario and Quebec to this day!',
+    text: 'I founded then led a hip-hop youth exchange program for 3 years and am proud to say it\'s still connecting singers, rappers, and dancers across Canada to this day!',
     image: '/memories/sos.jpg',
     date: '2011-2015',
     button: { logo: '/logos/instagram.png', text: '@sosolmc', link: 'https://www.instagram.com/sosolmc/' },

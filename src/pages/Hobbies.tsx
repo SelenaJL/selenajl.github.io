@@ -3,7 +3,7 @@ import { Page } from './Page';
 const mainCardContent = {
   title: 'Hobbies',
   text: 'Life is too short not to get wrapped up in things that delight us! \
-  In fact, I belive we could all do a much better job at sharing our joy with the world and keeping our childhood wonder alive as adults. \
+  In fact, I believe we could all do a much better job at sharing our joy with the world and keeping our childhood wonder alive as adults. \
   Therefore, I proudly present to you a few of my favourite things.',
 };
 
@@ -16,7 +16,7 @@ const cardsContent = [
   },
   {
     title: 'Million Reasons Run',
-    text: 'Every May for the past 5 years I\'ve challenged myself to partake in this incredible event where runners accross Canada raise money for local childrens hospitals. Thanks to the support of my family and friends, I\'ve run a total of 226km and raised $6643 for SickKids!',
+    text: 'Every May for the past 5 years I\'ve challenged myself to partake in this incredible event where runners across Canada raise money for local children\'s hospitals. Thanks to the support of my family and friends, I\'ve run a total of 226km and raised $6643 for SickKids!',
     image: '/memories/mrr-shirt.jpg',
     button: { logo: '/logos/mrr.png', text: 'Learn more', link: 'https://www.millionreasons.run/' },
   },
@@ -28,12 +28,12 @@ const cardsContent = [
   },
   {
     title: 'Art',
-    text: 'From painting with acrylics and watercolour to cross stitch and macrame, scrapbooking, woodworking, resin jewlery, bullet journaling, digital drawings, lino print, Cricut crafts, and yearly Halloween costumes... I love expressing myself through new creations.',
+    text: 'From painting with acrylics and watercolour to cross stitch and macrame, scrapbooking, woodworking, resin jewelry, bullet journaling, digital drawings, lino print, Cricut crafts, and yearly Halloween costumes... I love expressing myself through new creations.',
     image: '/memories/art.jpg',
   },
   {
     title: 'Cooking and Baking',
-    text: 'Anyone in my life knows I try to bring a homemade dish to every event! Not only is it fun to experiment with recipies as well as cost effective, sustainable, and healthy to eat at home but sharing food is my favourite way to nourish those around me.',
+    text: 'Anyone in my life knows I try to bring a homemade dish to every event! Not only is it fun to experiment with recipes as well as cost effective, sustainable, and healthy to eat at home but sharing food is my favourite way to nourish those around me.',
     image: '/memories/food.jpg',
   },
   {
