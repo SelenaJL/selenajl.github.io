@@ -9,7 +9,7 @@ const mainCardContent = {
 const cardsContent = [
   {
     title: 'Warrior Recreation',
-    text: 'I was an ambasaador for the University of Waterloo where I promoted student health and wellness on social media and ran campus events for <a href="https://letstalk.bell.ca/">Bell Let\'s Talk Day</a>.',
+    text: 'I was an ambassador for the University of Waterloo where I promoted student health and wellness on social media and ran campus events for <a href="https://letstalk.bell.ca/">Bell Let\'s Talk Day</a>.',
     image: '/memories/wrap.jpg',
     date: 'Jan-Apr 2020',
     button: { logo: '/logos/instagram.png', text: '@wloorec', link: 'https://www.instagram.com/wloorec/' },
@@ -44,7 +44,7 @@ const cardsContent = [
   },
   {
     title: 'Share Our Spirit',
-    text: 'I lead a hip hop youth exchange program for 3 years and am proud to say it\'s still connecting singers, rappers, and dancers accross Ontario and Quebec to this day!',
+    text: 'I led a hip hop youth exchange program for 3 years and am proud to say it\'s still connecting singers, rappers, and dancers across Ontario and Quebec to this day!',
     image: '/memories/sos.jpg',
     date: '2011-2015',
     button: { logo: '/logos/instagram.png', text: '@sosolmc', link: 'https://www.instagram.com/sosolmc/' },

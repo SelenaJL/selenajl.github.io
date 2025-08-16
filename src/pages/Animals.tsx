@@ -4,7 +4,7 @@ const mainCardContent = {
   title: 'Animal Rescue',
   text: 'One of my biggest passions is helping animals. \
   Thanks to these dedicated non-profit organizations, I\'ve had the pleasure of fostering 23 cats and counting! \
-  This includes socializing, providing medical care, and faciliating adoptions. \
+  This includes socializing, providing medical care, and facilitating adoptions. \
   You\'ll find more on my Instagram account where I welcome any questions.',
   buttons: [
     { logo: '/logos/instagram.png', text: '@selsfosterdiaries', link: 'https://www.instagram.com/selsfosterdiaries/' },
@@ -30,7 +30,7 @@ const cardsContent = [
   {
     image: '/cats/cat-20-21.jpg',
     title: 'Darius & Flanders',
-    text: 'A bonded pair of 6 year old males who were surrended. One obsessed with chasing wand toys and the other with being held like a baby given his "wobbly cat" syndrome.',
+    text: 'A bonded pair of 6 year old males who were surrendered. One obsessed with chasing wand toys and the other with being held like a baby given his "wobbly cat" syndrome.',
     date: 'Feb 2024 - Mar 2025',
   },
   {
@@ -42,7 +42,7 @@ const cardsContent = [
   {
     image: '/cats/cat-17.jpg',
     title: 'Dumpling',
-    text: 'A 1 year old calico female who came from Texas to have her eye removed. She is almot always making biscuts!',
+    text: 'A 1 year old calico female who came from Texas to have her eye removed. She is almost always making biscuits!',
     date: 'Apr 2023',
   },
   {
@@ -72,7 +72,7 @@ const cardsContent = [
   {
     image: '/cats/cat-9.jpg',
     title: 'Daiquiri',
-    text: 'A 2 year old mama who was found pregenant with FIV and 8 BB gun pellet wounds... She came from Texas for medical care and thrived!',
+    text: 'A 2 year old mama who was found pregnant with FIV and 8 BB gun pellet wounds... She came from Texas for medical care and thrived!',
     date: 'Jul-Dec 2021',
   },
   {

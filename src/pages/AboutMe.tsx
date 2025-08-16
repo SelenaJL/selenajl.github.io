@@ -37,12 +37,12 @@ const clickableCardsContent = [
   },
   {
     title: 'Volunteer History',
-    text: 'From mentoring to teaching to public speaking for youth STEM programs, hackathons, and community events in tech...',
+    text: 'From mentoring girls in STEM to speaking at conferences to teaching employees transitioning to engineering how to code...',
     route: '/volunteer',
   },
   {
     title: 'Animal Rescue',
-    text: 'From fostering 23 cats and aiding in their recovery to facilitating adoptions with my local shelters and rescues...',
+    text: 'From fostering 23 cats to socializing and providing medical care to facilitating adoptions with my local shelters...',
     route: '/animals',
   },
   {

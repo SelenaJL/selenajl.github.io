@@ -34,8 +34,8 @@ const cardsContent = [
   },
   {
     title: 'Rangle.io',
-    text: 'As a full stack developer, I designed and developed responsive component libraries for consulting clients with web apps using Angular JS and Tailwind CSS. I also facilitated weekly AI and IoT guilds.',
-    image: '/memories/iot.jpg',
+    text: 'As a full stack developer at a consultancy, I designed and developed responsive component libraries for clients wanting their websites to have a more consistent UX using Angular JS and Tailwind CSS.',
+    image: '/memories/rangle-christmas.jpg',
     date: 'Sep-Dec 2017',
     button: { logo: '/logos/rangle.png', text: 'Learn more', link: 'https://rangle.io/' },
   },
