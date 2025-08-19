@@ -4,10 +4,7 @@ const mainCardContent = {
   title: 'Projects',
   text: 'I recently decided it\'s about time I start deploying my personal projects for the world to see and use. \
   By doing this, I hope to learn new skills, have fun experimenting, grow my community, and inspire others to do the same. \
-  This website is the first of many to come!',
-  buttons: [
-    { logo: '/logos/github.png', text: 'See what I\'ve built', link: 'https://github.com/SelenaJL' },
-  ],
+  Check out my <a href="https://github.com/SelenaJL">GitHub</a> for more!',
 };
 
 const cardsContent = [

@@ -48,7 +48,7 @@ const cardsContent = [
     text: 'As a panelist for a webinar in partnership with the University of Waterloo\'s Work-Learn Institute, I spoke to 500+ attendees about how the COVID-19 pandemic might affect talent recruitment and retention.',
     date: 'Sep 2020',
     image: '/memories/hrd-talk.jpg',
-    button: { logo: '/logos/uw.png', text: 'Watch recording', link: 'https://uwaterloo.ca/work-learn-institute/events/webinar-future-work-and-your-talent-pipeline-what-covid-19' },
+    button: { logo: '/logos/hrd.png', text: 'Watch recording', link: 'https://uwaterloo.ca/work-learn-institute/events/webinar-future-work-and-your-talent-pipeline-what-covid-19' },
   },
   {
     title: 'IBM STEM for Girls',

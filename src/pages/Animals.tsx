@@ -2,15 +2,14 @@ import { Page } from './Page';
 
 const mainCardContent = {
   title: 'Animal Rescue',
-  text: 'One of my biggest passions is helping animals. \
-  Thanks to these dedicated non-profit organizations, I\'ve had the pleasure of fostering 23 cats and counting! \
+  text: 'One of my biggest passions is advocating for animals. \
+  Thanks to these dedicated non-profit organizations, I\'ve been able to foster 23 cats so far and help countless others. \
   This includes socializing, providing medical care, and facilitating adoptions. \
-  You\'ll find more on my Instagram account where I welcome any questions.',
+  Check out my <a href="https://www.instagram.com/selsfosterdiaries/">Instagram</a> for more!',
   buttons: [
-    { logo: '/logos/instagram.png', text: '@selsfosterdiaries', link: 'https://www.instagram.com/selsfosterdiaries/' },
-    { logo: '/logos/team-cat.png', text: 'Learn about TEAM', link: 'https://teamcatrescue.com/' },
-    { logo: '/logos/pet-patrol.png', text: 'Learn about Pet Patrol', link: 'https://www.petpatrol.ca/' },
-    { logo: '/logos/ava.png', text: 'Learn about AVA', link: 'https://www.avacats.org/' },
+    { logo: '/logos/team-cat.png', text: 'TEAM Cat Rescue', link: 'https://teamcatrescue.com/' },
+    { logo: '/logos/pet-patrol.png', text: 'Pet Patrol Cat Rescue', link: 'https://www.petpatrol.ca/' },
+    { logo: '/logos/ava.png', text: 'AVA Cat Rescue', link: 'https://www.avacats.org/' },
   ],
 };
 

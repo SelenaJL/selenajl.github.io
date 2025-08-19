@@ -11,7 +11,6 @@ describe('TopBar', () => {
     );
 
     expect(screen.getByText('Selena Lourenco')).toBeInTheDocument();
-    expect(screen.getByText('About')).toBeInTheDocument();
     expect(screen.getByText('Education')).toBeInTheDocument();
     expect(screen.getByText('Work')).toBeInTheDocument();
     expect(screen.getByText('Volunteer')).toBeInTheDocument();

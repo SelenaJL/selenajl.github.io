@@ -34,7 +34,7 @@ export const Page = ({ mainCardContent, cardsContent, clickableCardsContent }: P
           <Card key={`card-${index}`} {...card} />
         ))}
       </div>
-      <div className={styles.grid}>
+      <div className={styles.clickableGrid}>
         {clickableCardsContent && clickableCardsContent.map((card, index) => (
           <ClickableCard key={`clickable-card-${index}`} {...card} />
         ))}

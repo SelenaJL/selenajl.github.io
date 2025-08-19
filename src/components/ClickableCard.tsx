@@ -11,7 +11,10 @@ interface ClickableCardProps {
 export const ClickableCard = ({ title, text, route }: ClickableCardProps) => {
   return (
     <Link to={route} className={`${cardStyles.card} ${styles.clickableCard}`}>
-      <h3 className={cardStyles.title}>{title}</h3>
+      <div className={styles.titleContainer}>
+        <img src="/icons/arrow.png" alt="Arrow" className={styles.arrowIcon} />
+        <h3 className={cardStyles.title}>{title}</h3>
+      </div>
       <p
         className={cardStyles.text}
         dangerouslySetInnerHTML={{ __html: text }}

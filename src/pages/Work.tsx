@@ -2,12 +2,9 @@ import { Page } from './Page';
 
 const mainCardContent = {
   title: 'Work Experience',
-  text: 'Thanks to the University of Waterloo\'s co-op program, I was able to embrace a variety of roles, workplaces, and tech stacks early in my career. \
-  I love using my technical voice to accelerate cross-functional teams by fostering a culture of collaboration and facilitating Agile ceremonies that build alignment.',
-  buttons: [
-    { logo: '/logos/figma.png', text: 'My retro templates', link: 'https://www.figma.com/board/QKX955drwMPSZnWqmzoGWq/Selena-s-Retro-Templates' },
-    { logo: '/logos/figma.png', text: 'My DDD templates', link: 'https://www.figma.com/board/wiKELhKIRMwcoeAbYewzcC/Selena-s-DDD-Templates' },
-  ],
+  text: 'Thanks to co-op, I\'ve had the pleasure of exploring a variety of roles, workplaces, and tech stacks early in my career. \
+  My superpower is accelerating cross-functional teams by fostering a culture of trust, ownership, and collaboration. \
+  Check out my <a href="https://www.figma.com/board/QKX955drwMPSZnWqmzoGWq/Selena-s-Retro-Templates">retro templates</a> to do the same!',
 };
 
 const cardsContent = [

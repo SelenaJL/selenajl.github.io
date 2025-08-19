@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import styles from '../styles/TopBar.module.css';
 
 const links = [
-  { to: '/', text: 'About' },
   { to: '/education', text: 'Education' },
   { to: '/work', text: 'Work' },
   { to: '/volunteer', text: 'Volunteer' },

@@ -4,5 +4,16 @@
 }
 
 .clickableCard:hover {
-  background-color: var(--medium-yellow);
+  background-color: var(--light-pink);
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.arrowIcon {
+  height: 0.75rem;
+  width: auto;
 }

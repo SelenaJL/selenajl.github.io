@@ -1,4 +1,4 @@
-import { Button } from './Button';
+import { Link } from 'react-router-dom';
 import styles from '../styles/Card.module.css';
 
 interface CardProps {
@@ -10,32 +10,41 @@ interface CardProps {
 }
 
 export const Card = ({ title, text, image, date, button }: CardProps) => {
-  const headerContentClasses = date ? [styles.headerContent] : [];
-  if (image) headerContentClasses.push(styles.withImage);
+  const titleContainerClasses = [styles.titleContainer];
+  if (image) titleContainerClasses.push(styles.withImage);
 
-  const textClasses = [styles.text];
-  if (button) textClasses.push(styles.withButton);
-
-  return (
-    <div className={styles.card}>
+  const cardContent = (
+    <>
       {image && (
         <div className={styles.imageContainer}>
           <img src={image} alt={title} className={styles.image} />
         </div>
       )}
-      <div className={headerContentClasses.join(' ')}>
+      <div className={titleContainerClasses.join(' ')}>
+        {button?.logo && (
+          <img src={button.logo} alt={`${title} logo`} className={styles.titleLogo} />
+        )}
         <h3 className={styles.title}>{title}</h3>
-        {date && <span className={styles.date}>{date}</span>}
       </div>
       <div
-        className={textClasses.join(' ')}
+        className={styles.text}
         dangerouslySetInnerHTML={{ __html: text }}
       />
-      {button && (
-        <div className={styles.buttonContainer}>
-          <Button {...button} />
-        </div>
-      )}
-    </div>
+      {date && <span className={styles.date}>{date}</span>}
+    </>
   );
+
+  if (button) {
+    return (
+      <Link to={button.link} className={`${styles.card} ${styles.clickableCardLink}`}>
+        {cardContent}
+      </Link>
+    );
+  } else {
+    return (
+      <div className={styles.card}>
+        {cardContent}
+      </div>
+    );
+  }
 };

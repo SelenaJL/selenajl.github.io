@@ -14,7 +14,6 @@ export const MainCard = ({ title, text, image, buttons }: MainCardProps) => {
   return (
     <div className={styles.mainCard}>
       <div className={image ? styles.contentContainer : ''}>
-        {image && <img src={image} alt={title} className={styles.image} />}
         <div className={styles.textAndButtonContainer}>
           <h2 className={styles.title}>{title}</h2>
           <div
@@ -29,6 +28,7 @@ export const MainCard = ({ title, text, image, buttons }: MainCardProps) => {
             </div>
           )}
         </div>
+        {image && <img src={image} alt={title} className={styles.image} />}
       </div>
     </div>
   );

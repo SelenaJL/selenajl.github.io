@@ -24,7 +24,7 @@ const cardsContent = [
     title: 'Nonviolent Communication',
     text: 'Empathy is one of my core values. This book by Marshall Rosenberg has had a profound impact on my worldview and relationships so I highly recommend it. I actively practise expressing my needs in life-enriching ways and receiving the needs of others as a gift.',
     image: '/memories/nvc.jpg',
-    button: { logo: '/logos/cnvc.svg', text: 'Learn more', link: 'https://www.cnvc.org/store/nonviolent-communication-a-language-of-life' },
+    button: { logo: '/logos/cnvc.png', text: 'Learn more', link: 'https://www.cnvc.org/store/nonviolent-communication-a-language-of-life' },
   },
   {
     title: 'Art',

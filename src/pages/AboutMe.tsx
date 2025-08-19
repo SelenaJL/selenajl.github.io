@@ -1,27 +1,15 @@
 import { Page } from './Page';
 
-const birthDate = new Date('1997-11-03');
-const birthMonth = birthDate.getMonth();
-const currentDate = new Date();
-const currentMonth = currentDate.getMonth();
-let age = currentDate.getFullYear() - birthDate.getFullYear();
-if (currentMonth < birthMonth || (currentMonth === birthMonth && currentDate.getDay() < birthDate.getDay())) {
-  age--;
-}
-
 const mainCardContent = {
-  title: "It's Me, Hi!",
-  text: `I'm a ${age} year old software developer who lives in Toronto, Canada with my husband and foster cats. \
+  title: "Welcome to my world!",
+  text: `I'm a software developer who lives in Toronto, Canada with my husband and foster cats. \
   I thrive on connection and creativity which makes sense given that \
   I'm a type 2 or "helper" on the <a href="https://www.enneagraminstitute.com/">Enneagram</a> scale, \
   an ENFP or "campainger" on the <a href="https://www.16personalities.com/">Myers-Brigg</a> scale, \
   an "influencer" on the <a href="https://www.discprofile.com/disc-styles">DiSC</a> scale, \
   and an "explorer" on the <a href="https://nifplay.org/what-is-play/play-personalities/">play personalities</a> scale. \
-  I hope you enjoy learning more about my story and reach out so I can have the honour of learning about yours too.`,
-  image: '/memories/profile.jpg',
-  buttons: [
-    { logo: '/logos/linkedin.png', text: 'Connect with me', link: 'https://www.linkedin.com/in/selena-lourenco/' },
-  ],
+  I hope you enjoy learning about me and reach out so I can learn about you too.`,
+  image: '/main.png',
 };
 
 const clickableCardsContent = [

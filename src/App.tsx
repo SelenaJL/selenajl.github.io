@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { TopBar } from './components/TopBar';
 import ScrollToTop from './components/ScrollToTop';
+import { Footer } from './components/Footer';
 import { AboutMe } from './pages/AboutMe';
 import { Education } from './pages/Education';
 import { Work } from './pages/Work';
@@ -24,6 +25,7 @@ function App() {
         <Route path="/hobbies" element={<Hobbies />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

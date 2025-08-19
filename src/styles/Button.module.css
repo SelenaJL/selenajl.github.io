@@ -1,19 +1,19 @@
 
 .button {
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
+  min-width: fit-content; 
+  max-width: 250px; 
   gap: 0.5rem;
-  background-color: var(--pink);
-  color: var(--white);
   padding: 0.5rem 1rem;
   border-radius: 2em;
+  background-color: var(--light-pink);
+  color: var(--grey);
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.2s ease-in-out;
-  flex: 1;
-  min-width: fit-content; 
-  max-width: 250px; 
 }
 
 .button span {
@@ -21,7 +21,8 @@
 }
 
 .button:hover {
-  background-color: var(--light-pink);
+  outline: auto;
+  outline-color: var(--pink);
 }
 
 .buttonLogo {
