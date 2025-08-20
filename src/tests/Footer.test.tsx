@@ -22,4 +22,11 @@ describe('Footer', () => {
     const youtubeLink = screen.getByAltText('youtube.png').closest('a');
     expect(youtubeLink).toHaveAttribute('href', 'https://www.youtube.com/@selenajazz');
   });
+
+  it('renders the mail icon with a tooltip', () => {
+    render(<Footer />);
+    const mailIcon = screen.getByAltText('mail.png');
+    expect(mailIcon).toBeInTheDocument();
+    expect(mailIcon.closest('a')).toHaveAttribute('title', 'Once a Latchman, always a Latchman  😉');
+  });
 });

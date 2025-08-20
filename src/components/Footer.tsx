@@ -18,6 +18,7 @@ export const Footer = () => {
             href={iconLinkMapping[icon]}
             target="_blank"
             rel="noopener noreferrer"
+            title={icon === 'mail.png' ? 'Once a Latchman, always a Latchman 😉' : undefined} // easter egg!
           >
             <img src={`/icons/${icon}`} alt={icon} className={styles.icon} />
           </a>
