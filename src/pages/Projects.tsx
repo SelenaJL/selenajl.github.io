@@ -2,8 +2,8 @@ import { Page } from './Page';
 
 const mainCardContent = {
   title: 'Projects',
-  text: 'I recently decided it\'s about time I start deploying my personal projects for the world to see and use. \
-  By doing this, I hope to learn new skills, have fun experimenting, grow my community, and inspire others to do the same. \
+  text: 'I recently decided it\'s about time I start deploying my personal projects for the world to see. This website is the first of many! \
+  My goals are to have fun experimenting, learn new skills, grow my community, and inspire others to do the same. \
   Check out my <a href="https://github.com/SelenaJL">GitHub</a> for more!',
 };
 

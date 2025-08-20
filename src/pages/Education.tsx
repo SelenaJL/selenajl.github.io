@@ -22,18 +22,18 @@ const cardsContent = [
     button: { logo: '/logos/wato.png', text: 'Learn more', link: 'https://www.watonomous.ca/' },
   },
   {
-    title: 'UW WiCS',
-    text: 'I was an orientation leader, residence tour guide, and academic success speaker for students joining the University of Waterloo\'s Math faculty and computer science program.',
-    image: '/memories/math.jpg',
-    date: 'Sep 2016 & 2018',
-    button: { logo: '/logos/wics.png', text: 'Learn more', link: 'https://wics.uwaterloo.ca/' },
-  },
-  {
     title: 'CAN-CWiC',
     text: 'I was awarded "Best Student Tech Talk" at the Canadian Celebration of Women in Computing where I spoke about the intersection of design and development.',
     image: '/memories/can-cwic-talk.jpg',
     date: 'Nov 2017',
     button: { logo: '/logos/can-cwic.png', text: 'Learn more', link: 'https://cscan-infocan.ca/celebration-of-women-in-computing/' },
+  },
+  {
+    title: 'UW WiCS',
+    text: 'I was an orientation leader, residence tour guide, and academic success speaker for students joining the University of Waterloo\'s Math faculty and computer science program.',
+    image: '/memories/math.jpg',
+    date: 'Sep 2016 & 2018',
+    button: { logo: '/logos/wics.png', text: 'Learn more', link: 'https://wics.uwaterloo.ca/' },
   },
   {
     title: 'Sears Ontario Drama Festival ',

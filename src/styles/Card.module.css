@@ -13,6 +13,7 @@
   overflow: hidden;
   border-radius: 4px;
   margin-bottom: 0.5rem;
+  transition: transform 0.2s ease-in-out;
 }
 
 .buttonContainer {  
@@ -84,4 +85,8 @@
 
 .clickableCardLink:hover {
   background-color: var(--light-pink);
+}
+
+.clickableCardLink:hover .imageContainer {
+  transform: scale(1.02);
 }

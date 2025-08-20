@@ -15,33 +15,39 @@ const mainCardContent = {
 const clickableCardsContent = [
   {
     title: 'Education',
-    text: 'From advanced English and theatre to a Bachelor of Computer Science and autonomous vehicles to student health initiatives...',
+    text: 'From advanced English and theatre to a computer science and autonomous vehicles to student health initiatives...',
     route: '/education',
+    photoStack: ['/memories/math.jpg', '/memories/sos.jpg'],
   },
   {
     title: 'Work Experience',
-    text: 'From startups to Silicon Valley, healthcare to e-commerce, plus my very own retrospective and domain-driven design templates...',
+    text: 'From startups to big tech, Toronto to Silicon Valley, healthcare to e-commerce, and my very own retrospective templates...',
     route: '/work',
+    photoStack: ['/memories/ibm-intern.jpg', '/memories/linkedin-intern.jpg'],
   },
   {
     title: 'Volunteer History',
     text: 'From mentoring girls in STEM to speaking at conferences to teaching employees transitioning to engineering how to code...',
     route: '/volunteer',
+    photoStack: ['/memories/women.jpg', '/memories/pannel.jpg'],
   },
   {
     title: 'Animal Rescue',
     text: 'From fostering 23 cats to socializing and providing medical care to facilitating adoptions with my local shelters...',
     route: '/animals',
+    photoStack: ['/cats/cat-22.jpg', '/cats/cat-18-19.jpg'],
   },
   {
     title: 'Hobbies',
     text: 'From playing the piano and writing songs to running for children\'s hospitals to experimenting with art and cooking...',
     route: '/hobbies',
+    photoStack: ['/memories/mrr-shirt.jpg', '/memories/art.jpg'],
   },
   {
     title: 'Projects',
     text: 'From deploying this website to building a Taylor Swift song ranking app as well as an all-in-one wedding planning tool...',
     route: '/projects',
+    photoStack: ['/memories/wedding.jpg', '/memories/eras-tour.jpg'],
   },
 ];
 

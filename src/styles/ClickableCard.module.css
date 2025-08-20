@@ -1,10 +1,32 @@
 .clickableCard {
   text-decoration: none;
   color: inherit;
+  min-width: 0;
 }
 
 .clickableCard:hover {
   background-color: var(--light-pink);
+}
+
+.clickableCard:hover .stackPhoto:nth-child(even) {
+  transform: rotate(15deg);
+}
+
+.clickableCard:hover .stackPhoto:nth-child(odd) {
+  transform: rotate(-15deg);
+}
+
+.contentWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.textAndTitleContainer {
+  flex: 1 2 250px; 
 }
 
 .titleContainer {
@@ -16,4 +38,30 @@
 .arrowIcon {
   height: 0.75rem;
   width: auto;
+}
+
+.photoStack {
+  display: flex;
+  position: relative;
+}
+
+.stackPhoto {
+  width: 85px;
+  height: 85px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-left: -5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.stackPhoto:first-child {
+  margin-left: 0;
+}
+
+.stackPhoto:nth-child(even){
+  transform: rotate(15deg) translateY(-5px);
+}
+
+.stackPhoto:nth-child(odd){
+  transform: rotate(-15deg) translateY(5px);
 }
