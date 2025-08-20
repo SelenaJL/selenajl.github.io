@@ -15,7 +15,7 @@ const mainCardContent = {
 const clickableCardsContent = [
   {
     title: 'Education',
-    text: 'From advanced English and theatre to a computer science and autonomous vehicles to student health initiatives...',
+    text: 'From advanced English and theatre to computer science and autonomous vehicles to student health initiatives...',
     route: '/education',
     photoStack: ['/memories/math.jpg', '/memories/sos.jpg'],
   },
