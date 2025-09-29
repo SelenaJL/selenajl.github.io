@@ -15,9 +15,15 @@ const mainCardContent = {
 
 const cardsContent = [
   {
+    image: '/cats/cat-24.jpg',
+    title: 'Meesha',
+    text: 'A chatty 10 year old female rescued with terrible fleas and excited to be indoors where she gets endless food and kisses.',
+    date: 'Sep 2025',
+  },
+  {
     image: '/cats/cat-23.jpg',
     title: 'Autumn',
-    text: 'A beautiful 9 year old female who loves cuddles and chasing shadows. She is a Nebelung, known for their long silver coats and green eyes.',
+    text: 'A beautiful 9 year old female Nebelung, known for their long silver coats. She was surrendered with a heartfelt letter and loves chasing shadows.',
     date: 'Aug 2025',
   },
   {
@@ -29,7 +35,7 @@ const cardsContent = [
   {
     image: '/cats/cat-20-21.jpg',
     title: 'Darius & Flanders',
-    text: 'A bonded pair of 6 year old males who were surrendered. One obsessed with chasing wand toys and the other with being held like a baby given his "wobbly cat" syndrome.',
+    text: 'A bonded pair of 6 year old males - one obsessed with chasing wand toys and the other with being held like a baby given his "wobbly cat" syndrome.',
     date: 'Feb 2024 - Mar 2025',
   },
   {

@@ -13,14 +13,14 @@ const cardsContent = [
     text: 'After thoroughly enjoying the process of planning my own wedding, I felt inspired to create an all-in-one tool that would empower others to do the same! \
     Features include vendor selection, budgeting, guest list management, day of coordination, and more.',
     image: '/memories/wedding.jpg',
-    date: 'Coming Sep 2025',
+    date: 'Coming Oct 2025',
   },
   {
     title: 'Swiftie Stats',
     text: 'As a massive fan of Taylor Swift, I\'m often asked for my favourite era. To properly answer this question, I created spreadsheets to rank songs and score each album. \
     I then decided to turn this into an app that integrates with Spotify so everyone can be as nerdy as me!',
     image: '/memories/eras-tour.jpg',
-    date: 'Coming Aug 2025',
+    date: 'Coming Sep 2025',
   },
   {
     title: 'City Vibes',

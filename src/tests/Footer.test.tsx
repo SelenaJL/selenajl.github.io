@@ -27,6 +27,6 @@ describe('Footer', () => {
     render(<Footer />);
     const mailIcon = screen.getByAltText('mail.png');
     expect(mailIcon).toBeInTheDocument();
-    expect(mailIcon.closest('a')).toHaveAttribute('title', 'Once a Latchman, always a Latchman  😉');
+    expect(mailIcon.closest('a')).toHaveAttribute('title', 'Once a Latchman, always a Latchman 😉');
   });
 });
