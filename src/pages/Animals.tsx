@@ -15,10 +15,22 @@ const mainCardContent = {
 
 const cardsContent = [
   {
+    image: '/cats/cat-26.jpg',
+    title: 'Peppi',
+    text: 'A food-motivated 11 year old male who sadly lost his owner to cancer and is looking for a new home to share his licks and fluffy belly with. ',
+    date: 'Mar 2026 - Present',
+  },
+  {
+    image: '/cats/cat-25.jpg',
+    title: 'Zoloft',
+    text: 'An energetic 3 year old Calico with a tiny body but large personality! She doesn\'t let her diabetes phase her and thinks her meds are treats.',
+    date: 'Feb 2026',
+  },
+  {
     image: '/cats/cat-24.jpg',
     title: 'Meesha',
-    text: 'A chatty 10 year old female rescued with terrible fleas and excited to be indoors where she gets endless food and kisses.',
-    date: 'Sep 2025',
+    text: 'A chatty 10 year old female who loves snuggling in bed and found her perfect companion in an elderly lady with a young heart.',
+    date: 'Sep 2025 - Jan 2026',
   },
   {
     image: '/cats/cat-23.jpg',

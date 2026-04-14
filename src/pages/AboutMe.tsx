@@ -2,7 +2,7 @@ import { Page } from './Page';
 
 const mainCardContent = {
   title: "Welcome to my world!",
-  text: `I'm a software developer who lives in Toronto, Canada with my husband and foster cats. \
+  text: `I'm a technical solutions engineer who lives in Toronto, Canada with my husband and foster cats. \
   I thrive on connection and creativity which makes sense given that \
   I'm a type 2 or "helper" on the <a href="https://www.enneagraminstitute.com/">Enneagram</a> scale, \
   an ENFP or "campaigner" on the <a href="https://www.16personalities.com/">Myers-Brigg</a> scale, \
@@ -21,21 +21,21 @@ const clickableCardsContent = [
   },
   {
     title: 'Work Experience',
-    text: 'Read about my adventures at 6 different companies, from startups to big tech, then check out my team retrospective templates...',
+    text: 'Read about my adventures at 7 different companies, from startups to big tech, then check out my team retrospective templates...',
     route: '/work',
-    photoStack: ['/memories/ibm-intern.jpg', '/memories/linkedin-intern.jpg'],
+    photoStack: ['/memories/ibm-intern.jpg', '/memories/stripe.jpg'],
   },
   {
     title: 'Volunteer History',
     text: 'Read about my passion for teaching, mentorship, and public speaking through events for women and youth in STEM...',
     route: '/volunteer',
-    photoStack: ['/memories/women.jpg', '/memories/pannel.jpg'],
+    photoStack: ['/memories/women.jpg', '/memories/equate.jpg'],
   },
   {
     title: 'Animal Rescue',
     text: 'Read about my journey fostering 24 cats and counting, then check out the incredible shelters I\'ve partnered with over the years...',
     route: '/animals',
-    photoStack: ['/cats/cat-22.jpg', '/cats/cat-18-19.jpg'],
+    photoStack: ['/cats/cat-25.jpg', '/cats/cat-18-19.jpg'],
   },
   {
     title: 'Hobbies',

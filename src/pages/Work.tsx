@@ -9,6 +9,13 @@ const mainCardContent = {
 
 const cardsContent = [
   {
+    title: 'Stripe',
+    text: 'As a technical solutions engineer, I help developers integrate with our financial products and APIs across 7 SDKs (Ruby, Python, Node, Java, .NET, PHP, and Go). I also contribute to public tech docs.',
+    image: '/memories/stripe.jpg',
+    date: 'Oct 2025 - Present',
+    button: { logo: '/logos/stripe.png', text: 'Learn more', link: 'https://stripe.com/' },
+  },
+  {
     title: 'Shopify',
     text: 'As a senior software developer, I architected and built e-commerce features such as dynamically contextualized storefronts and a centralized notification platform using Ruby on Rails, MySQL, GraphQL, React, Kafka, and Kubernetes.',
     image: '/memories/shopify-fulltime.jpg',

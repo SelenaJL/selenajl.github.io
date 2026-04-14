@@ -9,6 +9,20 @@ const mainCardContent = {
 
 const cardsContent = [
   {
+    title: 'Stripe',
+    text: 'As a Toronto chapter lead for Equate, our Women\'s ERG, I plan and execute monthly events around community building and career development for women and non-binary people in fintech.',
+    date: 'Jan 2026 - Present',
+    image: '/memories/equate.jpg',
+    button: { logo: '/logos/stripe.png', text: 'Learn more', link: 'https://stripe.com/en-ca/jobs/benefits' },
+  },
+  {
+    title: 'Women in IT Management',
+    text: 'As a case competition judge for the EmpowerTech Conference, I evaluated team pitches for a fintech case study sponsored by Wealthsimple about training emotionally intelligent AI.',
+    date: 'Jan 2026',
+    image: '/memories/witm.jpg',
+    button: { logo: '/logos/witm.png', text: 'Learn more', link: 'https://www.witm.ca/empowertech-conference' },
+  },
+  {
     title: 'Technovation',
     text: 'As a coach for the global Technovation Girls program, I provided guidance to 8 teams using Thunkable or MIT App Inventor. We covered UX research, design, code, API/AI integrations, business models, and presentation skills.',
     date: 'Oct 2024 - Apr 2025',
